@@ -750,12 +750,6 @@ a {
   fill: #ffffff;
 }
 
-.modal-btn:hover,
-.modal-btn:focus {
-  background-color: #404bbf;
-  border: none;
-}
-
 /* FORM MODAL WINDOW*/
 .modal-caption {
   line-height: 1.5;
