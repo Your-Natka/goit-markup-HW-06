@@ -221,7 +221,7 @@ a {
   margin: 0 auto;
   background-image:
     linear-gradient(#2e2f42b3, rgba(46, 47, 66, 0.7)),
-    url(../images/img-name.jpg);
+    url(../images/img-name-desc.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -539,6 +539,7 @@ a {
 .footer-box {
   margin-right: 120px;
 }
+
 .footer-title {
   font-size: 18px;
   line-height: 1.17;
