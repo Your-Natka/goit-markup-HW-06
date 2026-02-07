@@ -706,7 +706,6 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  opacity: 1;
   background: var(--dairy);
   box-shadow:
     0px 1px 1px rgba(0, 0, 0, 0.14),
