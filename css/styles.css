@@ -1107,7 +1107,13 @@ a {
     flex-direction: row;
     gap: 16px;
   }
+
+  .footer-social-two,
+  .footer-subscribe {
+    margin-top: 0px;
+  }
 }
+
 @media screen and (min-width: 1158px) {
   .page-footer {
     padding: 100px 0;
@@ -1116,6 +1122,10 @@ a {
   .footer-container {
     flex-wrap: nowrap;
     gap: 0px;
+  }
+  .footer-box,
+  .footer-subscribe {
+    margin-left: 0px;
   }
 
   .footer-box {
