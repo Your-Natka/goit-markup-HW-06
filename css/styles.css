@@ -1087,7 +1087,7 @@ a {
   .footer-container {
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: first baseline;
     gap: 72px 24px;
   }
 
@@ -1110,7 +1110,7 @@ a {
 
   .footer-social-two,
   .footer-subscribe {
-    margin-top: 0px;
+    margin-bottom: inherit;
   }
 }
 
@@ -1126,6 +1126,13 @@ a {
   .footer-box,
   .footer-subscribe {
     margin-left: 0px;
+  }
+
+  .footer-social-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: unset;
   }
 
   .footer-box {
