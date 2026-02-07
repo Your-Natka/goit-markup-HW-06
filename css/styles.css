@@ -1176,8 +1176,8 @@ a {
   padding-left: 24px;
   padding-right: 24px;
   padding-bottom: 24px;
-  width: 408px;
-  min-height: 584px;
+  width: 288px;
+  min-height: 623px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1186,7 +1186,6 @@ a {
   border-radius: 4px;
   padding: 32px;
   max-width: 320px;
-  width: 100%;
   box-shadow:
     0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -1236,7 +1235,7 @@ a {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.02em;
-  margin-top: 72px;
+  margin-top: 52px;
   margin-bottom: 16px;
 }
 
@@ -1404,4 +1403,11 @@ a {
   color: var(--iris);
   text-decoration-line: underline;
   margin-left: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .modal {
+    width: 408px;
+    min-height: 584px;
+  }
 }
